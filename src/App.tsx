@@ -1,10 +1,11 @@
 import { ReactNode } from "react";
-import { Routes } from "react-router-dom";
+import { Route, Routes } from 'react-router-dom';
+import MainPage from "./pages/MainPage.tsx"
 
 export default function App(): ReactNode {
-    return <>
+    return (
         <Routes>
-
+            <Route path="/" element={<MainPage />} />
         </Routes>
-    </>;
+    );
 };

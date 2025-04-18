@@ -1,0 +1,39 @@
+.footer {
+  background-color: #202020;
+  color: white;
+  padding: 4rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.about {
+  width: 60%;
+}
+
+.contact {
+  width: 40%;
+}
+
+.header {
+  display: block;
+}
+
+.sidetoside {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  margin: 0 0 1rem 0;
+}
+
+.text {
+  margin: 0 3rem 0 0;
+}
+
+.insta {
+  margin: 0 1rem 0 0;
+}
