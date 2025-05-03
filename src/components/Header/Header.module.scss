@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #202020;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  padding: 2rem;
+}
+
+.left_options {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+}
+
+.right_options {
+  display: flex;
+  flex-direction: row;
+  padding-right: 1rem;
+  margin-left: auto;
+}
+
+.button {
+  padding: 2rem;
+  display: flex;
+}
+
+.button:hover {
+  background-color: #C7100E;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+@media (max-width: 768px) {
+  .left_options .button {
+    display: none;
+  }
+}
