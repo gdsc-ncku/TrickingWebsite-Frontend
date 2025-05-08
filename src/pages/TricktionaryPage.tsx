@@ -1,12 +1,12 @@
 import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 
-function MainPage() {
+function TricktionaryPage() {
     return <>
         <Header />
-        <p> Main Page Placeholder.</p>
+        <p> Tricktionary Page Placeholder.</p>
         <Footer />
     </>
 }
 
-export default MainPage
+export default TricktionaryPage

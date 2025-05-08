@@ -1,12 +1,12 @@
 import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 
-function MainPage() {
+function ShoppingPage() {
     return <>
         <Header />
-        <p> Main Page Placeholder.</p>
+        <p> Shopping Page Placeholder.</p>
         <Footer />
     </>
 }
 
-export default MainPage
+export default ShoppingPage
