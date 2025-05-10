@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//------------------hero section-----------------------------
+.hero_intro {
+    font-size: 3.34vw;
+    font-weight: 700;
+    line-height: 5.347vw;
+    vertical-align: middle;
+    width: 40vw;
+    height: 14.5vw;
+    margin: 0px;
+    padding-top: 18.472vw;
+    padding-left: 8.34vw;
+    color: white;
+}
+
+.hero_button {
+    margin-top: 1vw;
+    margin-left: 8.34vw;
+    background-color: #FE2725;
+    border-radius: 35px;
+    width: 7.43vw;
+    height: 2.78vw;
+    gap: 10px;
+    font-size: 1.25vw;
+}
+
+.carousel_dots {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 31.32vw;
+    margin-left: 43.82vw;
+    width: 0.7vw;
+    height: 9.25vw;
+}
+
+//------------------about section-----------------------------
+.about_section {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding-left: 7.43vw;
+    height: 35.625vw;
+    display: flex;
+}
+
+.about_text {
+    padding-top: 4.44vw;
+}
+
+.about_title {
+    margin: 0;
+    font-size: 2.5vw;
+    height: 6.25vw;
+    vertical-align: text-bottom;
+    color: #FE2725;
+}
+
+.about_subtitle {
+    font-size: 1.67vw;
+}
+
+.about_content {
+
+    font-size: 1.11vw;
+    font-weight: 400;
+}
+
+.about_video {
+    width: 37.5vw;
+    height: 19.4vw;
+    margin-left: 6vw;
+    margin-top: 7vw;
+}
+
+//------------------class section-----------------------------
+.class_section {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+}
+
+.entry_title {
+    font-size: 2.5vw;
+    width: 35.347vw;
+    height: 4vw;
+    text-align: center;
+}
+
+.entry_class_info {
+    display: flex;
+    height: 2vw;
+    justify-content: space-around;
+}
+
+
+.icon {
+    width: 1.67vw;
+    height: 1.67vw;
+    margin-top: 0.33vw;
+}
+
+.entry_text_left {
+    margin: 0;
+    padding: 0;
+    height: 1.4vw;
+    width: 13vw;
+    font-size: 1.388vw;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+.entry_text_right {
+    margin: 0;
+    padding: 0;
+    height: 1.4vw;
+    width: 15vw;
+    font-size: 1.388vw;
+    text-align: center;
+}
+
+.entry_introduction_left {
+    font-size: 1.67vw;
+    width: 35.4vw;
+
+    text-align: left;
+}
+
+//------------------showcase section-----------------------------
+.showcase_section {
+    display: flex;
+    height: 35vw;
+    background-color: black;
+    align-items: center;
+    flex-direction: row;
+}
+
+.showcase_video {
+    height: 26vw;
+    width: 25vw;
+
+}
+
+//------------------join section-----------------------------
+.join_section {
+    background-color: black;
+    color: white;
+    height: 47vw;
+    margin: 0;
+    text-align: center;
+}
+
+.join_title {
+    margin: 0 auto;
+    font-size: 2.5vw;
+    height: 6vw;
+}
+
+.join_content {
+    margin: 0 auto;
+    font-size: 1.67vw;
+    font-weight: 400;
+    text-align: start;
+    width: 81.4vw;
+}
+
+.join_button {
+    margin-top: 4vw;
+    width: 10vw;
+    height: 3vw;
+    background-color: aliceblue;
+
+}
