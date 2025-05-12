@@ -1,5 +1,6 @@
 import styles from './Header.module.scss';
 import Navbar from './Navbar/Navbar';
+import { Link } from 'react-router-dom';
 import { FaInfoCircle, FaShoppingCart, FaUser } from 'react-icons/fa';
 
 const Header = () => {
@@ -7,18 +8,18 @@ const Header = () => {
         <div className={styles.header}>
             <div className={styles.left_options}>
                 <Navbar />
-                <button className={styles.button}>
+                <Link to="/" className={styles.button}>
                     首頁
-                </button>
+                </Link>
                 <button className={styles.button}>
                     課程
                 </button>
                 <button className={styles.button}>
                     課卡
                 </button>
-                <button className={styles.button}>
+                <Link to="/tricktionary" className={styles.button}>
                     招式庫
-                </button>
+                </Link>
             </div>
             <div className={styles.logo}>
                 LOGO
@@ -27,12 +28,12 @@ const Header = () => {
                 <button className={styles.button}>
                     <FaInfoCircle />
                 </button>
-                <button className={styles.button}>
+                <Link to="/shop" className={styles.button}>
                     <FaShoppingCart />
-                </button>
-                <button className={styles.button}>
+                </Link>
+                <Link to="/login" className={styles.button}>
                     <FaUser />
-                </button>
+                </Link>
             </div>
         </div>
     );
