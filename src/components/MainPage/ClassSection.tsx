@@ -5,7 +5,7 @@ import calendar_icon from '../../assets/calendar_icon.svg'
 const ClassSection = () => {
     return (
         <div className={styles.class_section}>
-            <div styles="text-align:center">
+            <div className={styles.entry_class}>
                 <h1 className={styles.entry_title}>
                     入門班
                 </h1>
@@ -26,7 +26,7 @@ const ClassSection = () => {
                     amet feugiat lectus.
                 </p>
             </div>
-            <div styles="display:inline-block">
+            <div className={styles.entry_class}>
                 <h1 className={styles.entry_title}>
                     進階班
                 </h1>

@@ -18,13 +18,14 @@
 }
 
 .hero_button {
+    padding: 0%;
     margin-top: 1vw;
     margin-left: 8.34vw;
     background-color: #FE2725;
     border-radius: 35px;
     width: 7.43vw;
     height: 2.78vw;
-    gap: 10px;
+    gap: 0.69vw;
     font-size: 1.25vw;
 }
 
@@ -83,6 +84,10 @@
     background-color: black;
     color: white;
     justify-content: space-around;
+}
+
+.entry_class {
+    text-align: center;
 }
 
 .entry_title {
@@ -174,5 +179,5 @@
     width: 10vw;
     height: 3vw;
     background-color: aliceblue;
-
+    padding: 0%;
 }

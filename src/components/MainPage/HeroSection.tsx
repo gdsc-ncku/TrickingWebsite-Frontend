@@ -1,8 +1,8 @@
 import styles from './MainPage.module.scss';
 import Dot from './Dot/Dot.tsx'
 import React, { useState, useEffect } from 'react';
-import img1 from '../../assets/MainpageHeroBackground1.jpg';
-import img2 from '../../assets/MainpageHeroBackground2.jpg';
+import img1 from '../../assets/MainPageHeroBackground1.jpg';
+import img2 from '../../assets/MainPageHeroBackground2.jpg';
 
 const images = [img1, img2, img1, img2];
 

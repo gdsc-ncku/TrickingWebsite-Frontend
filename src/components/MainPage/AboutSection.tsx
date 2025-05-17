@@ -2,6 +2,8 @@ import styles from './MainPage.module.scss';
 import React, { useState, useEffect } from 'react';
 
 const AboutSection = () => {
+
+    const tricking_about_video_src = "https://www.youtube.com/embed/cevKK6uuCfU";
     return (
         <div className={styles.about_section}>
             <div className={styles.about_text}>
@@ -22,8 +24,8 @@ const AboutSection = () => {
 
 
             <iframe className={styles.about_video}
-                src="https://www.youtube.com/embed/cevKK6uuCfU"
-                frameborder="0"
+                src={tricking_about_video_src}
+                frameBorder="0"
             ></iframe>
 
 
