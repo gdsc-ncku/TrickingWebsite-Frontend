@@ -9,6 +9,7 @@ import Header from "../components/Header/Header"
 function MainPage() {
     return <>
         <Header />
+        <p> Main Page Placeholder.</p>
         <HeroSection />
         <AboutSection />
         <ClassSection />
