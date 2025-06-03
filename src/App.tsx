@@ -14,4 +14,4 @@ export default function App(): ReactNode {
             <Route path="/tricktionary" element={<TricktionaryPage />} />
         </Routes>
     );
-};
+};      
